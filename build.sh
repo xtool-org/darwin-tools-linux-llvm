@@ -6,7 +6,7 @@ root="${PWD}"
 stage="${root}/build/bin"
 install="${root}/build/install"
 
-rm -rf "${install}" "${stage}" output
+rm -rf "${install}" "${stage}" output/toolset.tar.gz
 mkdir -p "${install}" "${stage}" output
 
 echo "[info] Building..."

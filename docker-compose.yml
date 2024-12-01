@@ -3,8 +3,7 @@ services:
     build:
       context: .
     volumes:
-      - .:/work
-      - build:/work/build
+      - ./output:/work/output
     container_name: builder
     stdin_open: true
     tty: true
