@@ -1,0 +1,12 @@
+services:
+  builder:
+    build:
+      context: .
+    volumes:
+      - .:/work
+      - build:/work/build
+    container_name: builder
+    stdin_open: true
+    tty: true
+volumes:
+  build:
