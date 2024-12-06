@@ -4,6 +4,7 @@ services:
       context: .
     volumes:
       - ./output:/work/output
+      - ./llvm-project:/work/llvm-project
     container_name: builder
     stdin_open: true
     tty: true
