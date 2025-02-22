@@ -22,7 +22,7 @@ jobs:
       - name: Build
         run: |
           # docker compose run --build --rm builder -c ./build.sh
-          echo "testing" > output/toolset.tar.gz
+          mkdir -p output && echo "testing" > output/toolset.tar.gz
           mv output/toolset.tar.gz output/toolset-${{ matrix.host.arch }}.tar.gz
       - name: Upload artifact
         id: upload_artifact
