@@ -1,3 +1,3 @@
 # darwin-tools-linux-llvm
 
-Toolset for [swift-sdk-darwin](https://github.com/kabiroberai/swift-sdk-darwin)
+Toolset for [xtool](https://github.com/xtool-org/xtool)'s Darwin SDK
