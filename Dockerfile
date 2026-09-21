@@ -1,4 +1,4 @@
-FROM alpine:3.20
+FROM alpine:3.23
 
 RUN apk add cmake ninja clang lld python3 git patch
 
